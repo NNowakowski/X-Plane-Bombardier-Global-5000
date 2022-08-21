@@ -1,1 +1,10 @@
 .idea/
+
+# Ignore sound pack
+Bombardier Global 5000/fmod/
+Bombardier Global 5000/sounds/
+Bombardier Global 5000/plugins/xlua/scripts/ATC/
+Bombardier Global 5000/plugins/xlua/scripts/BleedAir/
+Bombardier Global 5000/plugins/xlua/scripts/Gpws/
+Bombardier Global 5000/plugins/xlua/scripts/Hydraulics/
+Bombardier Global 5000/plugins/xlua/scripts/PA/
