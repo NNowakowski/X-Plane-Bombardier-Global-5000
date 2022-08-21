@@ -156,7 +156,7 @@ P _gear/0/_lonE 4.0
 P _gear/0/_lonN 4.0
 P _gear/0/_lonR 110.0
 P _gear/0/_scon 71818.070312500
-P _gear/0/_stat_def 0.155290544
+P _gear/0/_stat_def 0.155290559
 P _gear/0/_steerdeg_hispeed 7.0
 P _gear/0/_steerdeg_lospeed 75.0
 P _gear/0/_strut_comp -1.0
@@ -190,7 +190,7 @@ P _gear/1/_lonE 1.0
 P _gear/1/_lonN 1.0
 P _gear/1/_lonR 6.0
 P _gear/1/_scon 71818.070312500
-P _gear/1/_stat_def 0.566358209
+P _gear/1/_stat_def 0.566358328
 P _gear/1/_steerdeg_hispeed 0.0
 P _gear/1/_steerdeg_lospeed 0.0
 P _gear/1/_strut_comp -1.500000000
@@ -224,7 +224,7 @@ P _gear/2/_lonE 1.0
 P _gear/2/_lonN 1.0
 P _gear/2/_lonR 6.0
 P _gear/2/_scon 71818.070312500
-P _gear/2/_stat_def 0.566358209
+P _gear/2/_stat_def 0.566358328
 P _gear/2/_steerdeg_hispeed 0.0
 P _gear/2/_steerdeg_lospeed 0.0
 P _gear/2/_strut_comp -1.500000000
@@ -28369,7 +28369,7 @@ P _part/86/_part_specs_invis 1
 P _part/86/_part_tex 0
 P _part/86/_part_the 5.0
 P _part/86/_part_x -7.210000038
-P _part/86/_part_y -7.853032589
+P _part/86/_part_y -7.853032112
 P _part/86/_part_z 71.930191040
 P _part/86/_patt_con 0
 P _part/86/_patt_prt 0
@@ -29839,7 +29839,7 @@ P _part/87/_part_specs_invis 1
 P _part/87/_part_tex 0
 P _part/87/_part_the 5.0
 P _part/87/_part_x 7.210000038
-P _part/87/_part_y -7.853032589
+P _part/87/_part_y -7.853032112
 P _part/87/_part_z 71.930191040
 P _part/87/_patt_con 0
 P _part/87/_patt_prt 0
@@ -36917,7 +36917,7 @@ P acf/_Gneg 1.0
 P acf/_Gpos 2.500000000
 P acf/_HUD_del_x 505.0
 P acf/_HUD_del_y 140.0
-P acf/_ICAO GLEX
+P acf/_ICAO GL5T
 P acf/_ITT_is_C 1
 P acf/_Jxx_unitmass 0.0
 P acf/_Jyy_unitmass 0.0
@@ -38615,7 +38615,7 @@ P acf/_cyclic_up_trim_rat 0.500000000
 P acf/_deg_psi_per_deg_def 12.0
 P acf/_deg_the_per_deg_def 6.0
 P acf/_delta3 0.0
-P acf/_descrip GLOBAL 5000 VC
+P acf/_descrip Bombardier Global 5000
 P acf/_diff_coll_with_hdng 0.0
 P acf/_diff_coll_with_ptch 0.0
 P acf/_diff_coll_with_roll 0.0
@@ -39390,7 +39390,7 @@ P acf/_mixt_x_ctr 0.0
 P acf/_n1_power_curve1 2.0
 P acf/_n1_power_curve2 3.0
 P acf/_n2_power_curve 3.500000000
-P acf/_name Global 5000 VC
+P acf/_name Bombardier Global 5000
 P acf/_new_plot_XP3D_cock/0 0
 P acf/_new_plot_XP3D_cock/1 1
 P acf/_new_plot_XP3D_cock/2 0
