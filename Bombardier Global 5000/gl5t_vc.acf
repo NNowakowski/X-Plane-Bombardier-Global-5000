@@ -4,13 +4,13 @@ ACF
 
 PROPERTIES_BEGIN
 P _cgpt/0/_name empty craft
-P _cgpt/0/_w_max 52230.0
-P _cgpt/0/_w_now 52230.0
-P _cgpt/0/_w_test 52230.0
-P _cgpt/0/_z_ref 69.800003052
+P _cgpt/0/_w_max 50861.0
+P _cgpt/0/_w_now 50861.0
+P _cgpt/0/_w_test 50861.0
+P _cgpt/0/_z_ref 66.800003052
 P _cgpt/1/_name fuel tank #1
-P _cgpt/1/_w_max 10947.200195313
-P _cgpt/1/_w_now 12041.917968750
+P _cgpt/1/_w_max 9739.799804688
+P _cgpt/1/_w_now 9739.800781250
 P _cgpt/1/_w_test 0.0
 P _cgpt/1/_z_ref 66.0
 P _cgpt/10/_w_max 0.0
@@ -54,20 +54,20 @@ P _cgpt/19/_w_now 1.0
 P _cgpt/19/_w_test 0.0
 P _cgpt/19/_z_ref 0.0
 P _cgpt/2/_name fuel tank #2
-P _cgpt/2/_w_max 16082.900390625
-P _cgpt/2/_w_now 17691.191406250
+P _cgpt/2/_w_max 19479.500000000
+P _cgpt/2/_w_now 21427.449218750
 P _cgpt/2/_w_test 0.0
 P _cgpt/2/_z_ref 66.0
 P _cgpt/3/_name fuel tank #3
-P _cgpt/3/_w_max 10947.200195313
-P _cgpt/3/_w_now 12041.917968750
+P _cgpt/3/_w_max 9739.799804688
+P _cgpt/3/_w_now 9739.800781250
 P _cgpt/3/_w_test 0.0
 P _cgpt/3/_z_ref 66.0
 P _cgpt/4/_name fuel tank #4
-P _cgpt/4/_w_max 7072.899902344
-P _cgpt/4/_w_now 7780.189941406
+P _cgpt/4/_w_max 0.0
+P _cgpt/4/_w_now 1.0
 P _cgpt/4/_w_test 0.0
-P _cgpt/4/_z_ref 91.400001526
+P _cgpt/4/_z_ref 0.0
 P _cgpt/5/_name fuel tank #5
 P _cgpt/5/_w_max 0.0
 P _cgpt/5/_w_now 1.0
@@ -156,7 +156,7 @@ P _gear/0/_lonE 4.0
 P _gear/0/_lonN 4.0
 P _gear/0/_lonR 110.0
 P _gear/0/_scon 71818.070312500
-P _gear/0/_stat_def 0.155290499
+P _gear/0/_stat_def 0.155290544
 P _gear/0/_steerdeg_hispeed 7.0
 P _gear/0/_steerdeg_lospeed 75.0
 P _gear/0/_strut_comp -1.0
@@ -190,7 +190,7 @@ P _gear/1/_lonE 1.0
 P _gear/1/_lonN 1.0
 P _gear/1/_lonR 6.0
 P _gear/1/_scon 71818.070312500
-P _gear/1/_stat_def 0.566358268
+P _gear/1/_stat_def 0.566358149
 P _gear/1/_steerdeg_hispeed 0.0
 P _gear/1/_steerdeg_lospeed 0.0
 P _gear/1/_strut_comp -1.500000000
@@ -224,7 +224,7 @@ P _gear/2/_lonE 1.0
 P _gear/2/_lonN 1.0
 P _gear/2/_lonR 6.0
 P _gear/2/_scon 71818.070312500
-P _gear/2/_stat_def 0.566358268
+P _gear/2/_stat_def 0.566358149
 P _gear/2/_steerdeg_hispeed 0.0
 P _gear/2/_steerdeg_lospeed 0.0
 P _gear/2/_strut_comp -1.500000000
@@ -39350,7 +39350,7 @@ P acf/_lock_with_elev_EQ 0
 P acf/_m_displaced 0.0
 P acf/_m_displaced_Y 0.0
 P acf/_m_empty 50861.0
-P acf/_m_fuel_max_tot 39250.0
+P acf/_m_fuel_max_tot 38959.0
 P acf/_m_jett 0.0
 P acf/_m_max 92500.0
 P acf/_m_shift 0.0

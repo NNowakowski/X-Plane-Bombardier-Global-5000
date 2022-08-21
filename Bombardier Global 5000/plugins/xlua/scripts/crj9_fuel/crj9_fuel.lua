@@ -110,7 +110,7 @@ Fuel_timer = 0
 Fueloverride = 0
 TransferTo = 0
 TransferFrom = 0
-WingTankCapacity = 4450 -- measured in kg
+WingTankCapacity = 4417 -- measured in kg
 
 
 function after_physics()
