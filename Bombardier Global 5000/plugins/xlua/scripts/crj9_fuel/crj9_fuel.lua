@@ -110,6 +110,7 @@ Fuel_timer = 0
 Fueloverride = 0
 TransferTo = 0
 TransferFrom = 0
+WingTankCapacity = 4450 -- measured in kg
 
 
 function after_physics()
@@ -118,56 +119,32 @@ Fueltankcrossfeed = 0
 	if Fuel_timer >= 1 then
 		-- Center tank, automated
 		if Fuelcenter >= 3 then
-			if Fuelleft <= 6285 then
-				Starttransferleft = 1
-			end
-			if Fuelleft >= 6556 then
-				Starttransferleft = 0
-			end
-			if Fuelright <= 6285 then
-				Starttransferright = 1
-			end
-			if Fuelright >= 6556 then
-				Starttransferright = 0
-			end
-			if Starttransferleft == 1 then
-				Fuelleft = Fuelleft + 1
-				Fuelcenter = Fuelcenter - 1
-			end	
-			if Starttransferright == 1 then
-				Fuelright = Fuelright + 1
-				Fuelcenter = Fuelcenter - 1
-			end	
+		    if Fuelleft <= WingTankCapacity then
+                Fuelleft = Fuelleft + 1
+                Fuelcenter = Fuelcenter - 1
+            end
+            if Fuelright <= WingTankCapacity then
+                Fuelright = Fuelright + 1
+                Fuelcenter = Fuelcenter - 1
+            end
 		end
 		-- Aft tank, automated
-		if aft_xfer == 0 then	
-			if Fuelleft < 2495 or Fuelright < 2495 then
-				Starttransferaft = 1
-			end
-			if Starttransferaft == 1 then
-				if Fuelaft > 3 then
-					Fuelleft = Fuelleft + 1
-					Fuelright = Fuelright + 1
-					Fuelaft = Fuelaft - 2
-				end
-			end
-		end
-		if aft_xfer == 1 then	
-			if Fuelaft > 3 then
-				if Fuelleft <= 6556 then
-					Fuelleft = Fuelleft + 1
-					Fuelaft = Fuelaft -1
-				end
-				if Fuelright <= 6556 then
-					Fuelright = Fuelright + 1
-					Fuelaft = Fuelaft - 1
-				end
-			end
+		if aft_xfer == 0 or aft_xfer == 1 then
+			if Fuelaft >= 3 then
+                if Fuelleft <= WingTankCapacity then
+                    Fuelleft = Fuelleft + 1
+                    Fuelaft = Fuelaft - 1
+                end
+                if Fuelright <= WingTankCapacity then
+                    Fuelright = Fuelright + 1
+                    Fuelaft = Fuelaft - 1
+                end
+            end
 		end
 		-- Fuel transfer left and right
 		if wing_xfer == 1 then
 			if Fuelleft >= 3 then
-				if Fuelright <= 6556 then
+				if Fuelright <= WingTankCapacity then
 					Fuelright = Fuelright + 1
 					Fuelleft = Fuelleft - 1	
 				end
@@ -175,9 +152,9 @@ Fueltankcrossfeed = 0
 		end
 		if wing_xfer == 3 then
 			if Fuelright >= 3 then
-				if Fuelleft <= 6556 then
+				if Fuelleft <= WingTankCapacity then
+					Fuelleft = Fuelleft + 1
 					Fuelright = Fuelright - 1
-					Fuelleft = Fuelleft + 1	
 				end
 			end
 		end
