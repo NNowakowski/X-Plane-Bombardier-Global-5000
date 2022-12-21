@@ -69,6 +69,9 @@ Spoiler = find_dataref("sim/flightmodel2/wing/spoiler1_deg[1]")
 -- Autothrottle
 datarefAutothrottleEnabled = find_dataref("sim/cockpit2/autopilot/autothrottle_enabled")
 
+-- Autotrim
+datarefAutoTrim = find_dataref("sim/aircraft/overflow/acf_auto_trimEQ")
+
 ------------------------------- FUNCTIONS -------------------------------
 
 -- ANIMATION FUNCTION
@@ -306,6 +309,7 @@ function flight_start()
 	efis2 = 1
 	Landing_light_on = 1
 	Gear_indi_timer = 0
+	datarefAutoTrim = 1
 end
 
 function after_physics()
