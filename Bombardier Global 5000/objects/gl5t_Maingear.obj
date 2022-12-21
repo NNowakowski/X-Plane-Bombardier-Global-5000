@@ -42424,47 +42424,6 @@ IDX	38528
 			TRIS	13707 918
 			ANIM_end
 			TRIS	19011 1914
-				ANIM_begin
-				ANIM_hide	0	1	robertsv/glex/lights/tl_front
-				ANIM_show	1	1	robertsv/glex/lights/tl_front
-					
-				ANIM_begin
-				ANIM_rotate	-0.71169841	-0.70248508	-0	14.090401	14.090401
-				LIGHT_PARAM	airplane_landing_sp 0.058369055 0.55008513 -0.0029237187 1.0 1.0 1.0 0 100.0 0.9
-				ANIM_end
-					ANIM_begin
-					ANIM_rotate	-0.71169853	-0.70248502	-0	14.090403	14.090403
-					LIGHT_PARAM	airplane_landing_core 0.058372036 0.55008793 -0.0029259473 0 0 -0.8 0 0.25
-					ANIM_end
-					ANIM_begin
-					ANIM_rotate	-0.71169853	-0.70248502	-0	14.090403	14.090403
-					LIGHT_PARAM	airplane_landing_flare 0.058369529 0.55008519 -0.0029239077 0 -1.8 -18 0 2
-					ANIM_end
-					ANIM_begin
-					ANIM_rotate	-0.71169853	-0.70248502	-0	14.090403	14.090403
-					LIGHT_PARAM	airplane_landing_glow 0.058369529 0.55008519 -0.0029239077 0 -0.12 -1.2 0 0.5
-					ANIM_end
-				ANIM_end
-				ANIM_begin
-				ANIM_hide	0	1	robertsv/glex/lights/tl_front
-				ANIM_show	1	1	robertsv/glex/lights/tl_front
-				ANIM_begin
-				ANIM_rotate	-0.71169841	0.70248508	-0	14.090401	14.090401
-				LIGHT_PARAM	airplane_landing_sp -0.058369055 0.55008513 -0.0029237187 1.0 1.0 1.0 0 100.0 0.9
-				ANIM_end
-					ANIM_begin
-					ANIM_rotate	-0.71169859	0.70248502	-0	14.090401	14.090401
-					LIGHT_PARAM	airplane_landing_core -0.058366198 0.55008876 -0.0029260563 0 0 -0.8 0 0.25
-					ANIM_end
-					ANIM_begin
-					ANIM_rotate	-0.71169859	0.70248502	-0	14.090401	14.090401
-					LIGHT_PARAM	airplane_landing_flare -0.05836951 0.55008519 -0.0029240195 0 -1.8 -18 0 2
-					ANIM_end
-					ANIM_begin
-					ANIM_rotate	-0.71169859	0.70248502	-0	14.090401	14.090401
-					LIGHT_PARAM	airplane_landing_glow -0.05836951 0.55008519 -0.0029240195 0 -0.12 -1.2 0 0.5
-					ANIM_end
-				ANIM_end
 			ANIM_begin
 			ANIM_trans	-0	0.61587	12.64453	-0	0.61587	12.64453
 			ANIM_trans_begin	sim/flightmodel2/gear/tire_vertical_deflection_mtr[0]
