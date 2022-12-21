@@ -110,7 +110,9 @@ Fuel_timer = 0
 Fueloverride = 0
 TransferTo = 0
 TransferFrom = 0
-WingTankCapacity = 4417 -- measured in kg
+FuelCapacityLeft = 4417
+FuelCapacityRight = 4417
+FuelCapacityWing = 8835
 
 
 function after_physics()
@@ -119,11 +121,11 @@ Fueltankcrossfeed = 0
 	if Fuel_timer >= 1 then
 		-- Center tank, automated
 		if Fuelcenter >= 3 then
-		    if Fuelleft <= WingTankCapacity then
+		    if Fuelleft <= FuelCapacityLeft then
                 Fuelleft = Fuelleft + 1
                 Fuelcenter = Fuelcenter - 1
             end
-            if Fuelright <= WingTankCapacity then
+            if Fuelright <= FuelCapacityRight then
                 Fuelright = Fuelright + 1
                 Fuelcenter = Fuelcenter - 1
             end
@@ -131,11 +133,11 @@ Fueltankcrossfeed = 0
 		-- Aft tank, automated
 		if aft_xfer == 0 or aft_xfer == 1 then
 			if Fuelaft >= 3 then
-                if Fuelleft <= WingTankCapacity then
+                if Fuelleft <= FuelCapacityLeft then
                     Fuelleft = Fuelleft + 1
                     Fuelaft = Fuelaft - 1
                 end
-                if Fuelright <= WingTankCapacity then
+                if Fuelright <= FuelCapacityRight then
                     Fuelright = Fuelright + 1
                     Fuelaft = Fuelaft - 1
                 end
@@ -144,7 +146,7 @@ Fueltankcrossfeed = 0
 		-- Fuel transfer left and right
 		if wing_xfer == 1 then
 			if Fuelleft >= 3 then
-				if Fuelright <= WingTankCapacity then
+				if Fuelright <= FuelCapacityRight then
 					Fuelright = Fuelright + 1
 					Fuelleft = Fuelleft - 1	
 				end
@@ -152,7 +154,7 @@ Fueltankcrossfeed = 0
 		end
 		if wing_xfer == 3 then
 			if Fuelright >= 3 then
-				if Fuelleft <= WingTankCapacity then
+				if Fuelleft <= FuelCapacityLeft then
 					Fuelleft = Fuelleft + 1
 					Fuelright = Fuelright - 1
 				end

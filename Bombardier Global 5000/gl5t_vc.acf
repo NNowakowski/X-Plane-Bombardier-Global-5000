@@ -9550,7 +9550,7 @@ P _gear/0/_steerdeg_hispeed 7.000000000
 P _gear/0/_steerdeg_lospeed 75.000000000
 P _gear/0/_strut_comp -1.000000000
 P _gear/0/_strut_max_wgt_def 1.149999976
-P _gear/0/_strut_max_wgt_frc 2.5371998E4
+P _gear/0/_strut_max_wgt_frc 2.5440572E4
 P _gear/0/_strut_preload_def 1.029999971
 P _gear/0/_strut_preload_frc 6132.134765625
 P _gear/0/_strut_s1 0.000000000
@@ -9582,7 +9582,7 @@ P _gear/1/_steerdeg_hispeed 0.000000000
 P _gear/1/_steerdeg_lospeed 0.000000000
 P _gear/1/_strut_comp -1.500000000
 P _gear/1/_strut_max_wgt_def 1.309999943
-P _gear/1/_strut_max_wgt_frc 3.3564E4
+P _gear/1/_strut_max_wgt_frc 3.3654715E4
 P _gear/1/_strut_preload_def 0.899999976
 P _gear/1/_strut_preload_frc 2.2364434E4
 P _gear/1/_strut_s1 0.000000000
@@ -9614,7 +9614,7 @@ P _gear/2/_steerdeg_hispeed 0.000000000
 P _gear/2/_steerdeg_lospeed 0.000000000
 P _gear/2/_strut_comp -1.500000000
 P _gear/2/_strut_max_wgt_def 1.309999943
-P _gear/2/_strut_max_wgt_frc 3.3564E4
+P _gear/2/_strut_max_wgt_frc 3.3654715E4
 P _gear/2/_strut_preload_def 0.899999976
 P _gear/2/_strut_preload_frc 2.2364434E4
 P _gear/2/_strut_s1 0.000000000
@@ -34678,7 +34678,7 @@ P acf/_ann_wav_file/count 198
 P acf/_ap_crs_src 0
 P acf/_apt_req_plane 1
 P acf/_asi_is_kts 1
-P acf/_author RobertSV
+P acf/_author RobertSV, NNowakowski
 P acf/_auto_cowl_flaps_EQ 1065353216
 P acf/_auto_engage_BC_deg 0.000000000
 P acf/_auto_omega_fire 0.000000000
@@ -36123,7 +36123,7 @@ P acf/_feathered_pitch 0.000000000
 P acf/_ff_rat_idle_JET 0.100000001
 P acf/_ff_rat_idle_PRP 0.000000000
 P acf/_ff_rat_idle_turbo 0.000000000
-P acf/_file_writer_version 120050
+P acf/_file_writer_version 120057
 P acf/_fixed_max/0 0.000000000
 P acf/_fixed_max/1 0.000000000
 P acf/_fixed_max/2 0.000000000
@@ -36374,7 +36374,7 @@ P acf/_ground_pwr/2 15.659999847
 P acf/_ground_pwr/count 3
 P acf/_gyro_spooldown_time 60.000000000
 P acf/_gyro_spoolup_time 5.000000000
-P acf/_h_eqlbm 6.806484699
+P acf/_h_eqlbm 6.807701111
 P acf/_has_ADG 0
 P acf/_has_APU_bleed_air 1
 P acf/_has_APU_generator 1
@@ -36554,7 +36554,7 @@ P acf/_m_displaced_Y 0.000000000
 P acf/_m_empty 5.0861E4
 P acf/_m_fuel_max_tot 3.8959E4
 P acf/_m_jett 0.000000000
-P acf/_m_max 9.25E4
+P acf/_m_max 9.275E4
 P acf/_m_shift 0.000000000
 P acf/_m_shift_dx 0.000000000
 P acf/_m_shift_dz 0.000000000
@@ -37101,7 +37101,7 @@ P acf/_tank_xyz_full/8,1 0.000000000
 P acf/_tank_xyz_full/8,2 0.000000000
 P acf/_tank_xyz_full/i_count 9
 P acf/_tank_xyz_full/j_count 3
-P acf/_the_eqlbm -0.116655320
+P acf/_the_eqlbm -0.118653722
 P acf/_thro_non_vect_props_at_sin_vect 0
 P acf/_thro_x_ctr 0.000000000
 P acf/_throt_max_fwd_emr 1.039999962
