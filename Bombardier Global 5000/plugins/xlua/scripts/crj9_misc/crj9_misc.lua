@@ -66,6 +66,9 @@ Slats = find_dataref("sim/flightmodel2/controls/slat1_deploy_ratio")
 Flaps = find_dataref("sim/flightmodel2/wing/flap1_deg[1]")
 Spoiler = find_dataref("sim/flightmodel2/wing/spoiler1_deg[1]")
 
+-- Autothrottle
+datarefAutothrottleEnabled = find_dataref("sim/cockpit2/autopilot/autothrottle_enabled")
+
 ------------------------------- FUNCTIONS -------------------------------
 
 -- ANIMATION FUNCTION
@@ -239,6 +242,17 @@ function Glex_efis2_toggle(phase, duration)
 	end
 end
 
+function glexAutothrottleToggle(phase, duration)
+    if phase == 0 then
+        if datarefAutothrottleEnabled == 1 then
+            datarefAutothrottleEnabled = 0
+        else
+            datarefAutothrottleEnabled = 1
+        end
+    end
+end
+
+
 cmdEmertog = create_command("robertsv/crjx/emergency/EMER_press_toggle","toggle emergency",EMER_toggle)
 
 Inverter1 = find_dataref("sim/cockpit2/electrical/inverter_on[0]")
@@ -266,6 +280,9 @@ cmdglex_light_ll_nose_toggle = create_command("robertsv/glex/lights/ll_nose_togg
 -- EFIS commands
 cmdglex_efis1_toggle = create_command("robertsv/glex/mfd/efis1_toggle","",Glex_efis1_toggle)
 cmdglex_efis2_toggle = create_command("robertsv/glex/mfd/efis2_toggle","",Glex_efis2_toggle)
+
+-- Autothrottle
+cmdGlexAutothrottleToggle = create_command("robertsv/glex/autopilot/autothrottle_toggle", "", glexAutothrottleToggle)
 
 function flight_start()
 	if Inverter1 == 0 then
